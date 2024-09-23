@@ -1,0 +1,13 @@
+com/hpe/caf/worker/queue/sqs/util/WorkerQueueWrapper$1.class
+com/hpe/caf/worker/queue/sqs/cloudwatch/DatapointCollector.class
+com/hpe/caf/worker/queue/sqs/TestContainer.class
+com/hpe/caf/worker/queue/sqs/util/StubbedTaskCallback.class
+com/hpe/caf/worker/queue/sqs/util/WorkerQueueWrapper.class
+com/hpe/caf/worker/queue/sqs/VisibilityTimeoutListTest.class
+com/hpe/caf/worker/queue/sqs/cloudwatch/CloudwatchMetricsIT.class
+com/hpe/caf/worker/queue/sqs/DistributorIT.class
+com/hpe/caf/worker/queue/sqs/util/CallbackResponse.class
+com/hpe/caf/worker/queue/sqs/util/WrapperConfig.class
+com/hpe/caf/worker/queue/sqs/VisibilityIT.class
+com/hpe/caf/worker/queue/sqs/cloudwatch/MetricDataPoints.class
+com/hpe/caf/worker/queue/sqs/SQSWorkerQueueIT.class

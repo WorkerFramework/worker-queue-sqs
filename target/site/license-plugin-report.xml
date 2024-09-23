@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<licensePluginReport goal="CHECK" timestamp="1727081017229">
+    <module artifactId="worker-queue-sqs" groupId="com.github.workerframework" version="8.2.0-SNAPSHOT"/>
+    <files>
+        <file path="pom.xml" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/QueueInfo.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/SQSTaskInformation.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/SQSWorkerQueue.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/config/SQSWorkerQueueConfiguration.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/consumer/QueueConsumer.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/distributor/MessageDistributor.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/metrics/MetricsReporter.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/DeletePublisher.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/WorkerPublisher.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/error/DeletionError.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/error/PublishError.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/message/DeleteMessage.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/message/WorkerMessage.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/response/DeleteBatchResponse.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/publisher/response/PublishBatchResponse.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/util/DeadLetteredQueuePair.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/util/SQSUtil.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/visibility/ChangeVisibilityError.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/visibility/VisibilityMonitor.java" result="PRESENT"/>
+        <file path="src/main/java/com/hpe/caf/worker/queue/sqs/visibility/VisibilityTimeout.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/DistributorIT.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/SQSWorkerQueueIT.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/TestContainer.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/VisibilityIT.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/VisibilityTimeoutListTest.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/cloudwatch/CloudwatchMetricsIT.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/cloudwatch/DatapointCollector.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/cloudwatch/MetricDataPoints.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/util/CallbackResponse.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/util/StubbedTaskCallback.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/util/WorkerQueueWrapper.java" result="PRESENT"/>
+        <file path="src/test/java/com/hpe/caf/worker/queue/sqs/util/WrapperConfig.java" result="PRESENT"/>
+        <file path="src/test/resources/logback.xml" result="PRESENT"/>
+    </files>
+</licensePluginReport>

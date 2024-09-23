@@ -1,0 +1,98 @@
+@options
+@packages
+-classpath
+'/home/david/.m2/repository/com/github/cafapi/caf-api/3.1.0-596/caf-api-3.1.0-596.jar:/home/david/.m2/repository/com/github/cafapi/util/util-naming/3.1.0-596/util-naming-3.1.0-596.jar:/home/david/.m2/repository/com/github/workerframework/worker-api/8.2.0-SNAPSHOT/worker-api-8.2.0-SNAPSHOT.jar:/home/david/.m2/repository/com/github/cafapi/util/util-ref/3.1.0-596/util-ref-3.1.0-596.jar:/home/david/.m2/repository/com/github/workerframework/worker-configs/8.2.0-SNAPSHOT/worker-configs-8.2.0-SNAPSHOT.jar:/home/david/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/home/david/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/david/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/david/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/david/.m2/repository/org/checkerframework/checker-qual/3.40.0/checker-qual-3.40.0.jar:/home/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/home/david/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/david/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/david/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/david/.m2/repository/software/amazon/awssdk/auth/2.27.7/auth-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/annotations/2.27.7/annotations-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/utils/2.27.7/utils-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/identity-spi/2.27.7/identity-spi-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/profiles/2.27.7/profiles-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/http-client-spi/2.27.7/http-client-spi-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/json-utils/2.27.7/json-utils-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/third-party-jackson-core/2.27.7/third-party-jackson-core-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/http-auth-aws/2.27.7/http-auth-aws-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/http-auth-aws-eventstream/2.27.7/http-auth-aws-eventstream-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/http-auth/2.27.7/http-auth-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/http-auth-spi/2.27.7/http-auth-spi-2.27.7.jar:/home/david/.m2/repository/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.jar:/home/david/.m2/repository/software/amazon/awssdk/aws-core/2.27.7/aws-core-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/metrics-spi/2.27.7/metrics-spi-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/endpoints-spi/2.27.7/endpoints-spi-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/retries-spi/2.27.7/retries-spi-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/retries/2.27.7/retries-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/regions/2.27.7/regions-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/sdk-core/2.27.7/sdk-core-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/checksums-spi/2.27.7/checksums-spi-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/checksums/2.27.7/checksums-2.27.7.jar:/home/david/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/david/.m2/repository/software/amazon/awssdk/sqs/2.27.7/sqs-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/aws-json-protocol/2.27.7/aws-json-protocol-2.27.7.jar:/home/david/.m2/repository/software/amazon/awssdk/protocol-core/2.27.7/protocol-core-2.27.7.jar'
+-encoding
+'UTF-8'
+-protected
+-quiet
+--release
+17
+-sourcepath
+'/mnt/d/SRC/JAVA/worker-queue-sqs/src/main/java:/mnt/d/SRC/JAVA/worker-queue-sqs/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2015&#x2013;2024 <a href="https://www.opentext.com">Open Text Corporation</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'worker-queue-sqs 8.2.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'worker-queue-sqs 8.2.0-SNAPSHOT API'
+com.hpe.caf.worker.queue.sqs.config
+com.hpe.caf.worker.queue.sqs.consumer
+com.hpe.caf.worker.queue.sqs.distributor
+com.hpe.caf.worker.queue.sqs.metrics
+com.hpe.caf.worker.queue.sqs.publisher
+com.hpe.caf.worker.queue.sqs.publisher.error
+com.hpe.caf.worker.queue.sqs.publisher.message
+com.hpe.caf.worker.queue.sqs.publisher.response
+com.hpe.caf.worker.queue.sqs
+com.hpe.caf.worker.queue.sqs.util
+com.hpe.caf.worker.queue.sqs.visibility
+/home/david/.m2/repository/com/github/cafapi/caf-api/3.1.0-596/caf-api-3.1.0-596.jar = 1717763298000
+/home/david/.m2/repository/com/github/cafapi/util/util-naming/3.1.0-596/util-naming-3.1.0-596.jar = 1717763315000
+/home/david/.m2/repository/com/github/workerframework/worker-api/8.2.0-SNAPSHOT/worker-api-8.2.0-SNAPSHOT.jar = 1726584177839
+/home/david/.m2/repository/com/github/cafapi/util/util-ref/3.1.0-596/util-ref-3.1.0-596.jar = 1717763303000
+/home/david/.m2/repository/com/github/workerframework/worker-configs/8.2.0-SNAPSHOT/worker-configs-8.2.0-SNAPSHOT.jar = 1726584165672
+/home/david/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar = 1696971215000
+/home/david/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar = 1697548569000
+/home/david/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1536694843000
+/home/david/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar = 1490936147000
+/home/david/.m2/repository/org/checkerframework/checker-qual/3.40.0/checker-qual-3.40.0.jar = 1698863315000
+/home/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar = 1697654199000
+/home/david/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar = 1673409222000
+/home/david/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar = 1653588099000
+/home/david/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar = 1693757672000
+/home/david/.m2/repository/software/amazon/awssdk/auth/2.27.7/auth-2.27.7.jar = 1723839683000
+/home/david/.m2/repository/software/amazon/awssdk/annotations/2.27.7/annotations-2.27.7.jar = 1723839761000
+/home/david/.m2/repository/software/amazon/awssdk/utils/2.27.7/utils-2.27.7.jar = 1723839701000
+/home/david/.m2/repository/software/amazon/awssdk/identity-spi/2.27.7/identity-spi-2.27.7.jar = 1723839795000
+/home/david/.m2/repository/software/amazon/awssdk/profiles/2.27.7/profiles-2.27.7.jar = 1723839648000
+/home/david/.m2/repository/software/amazon/awssdk/http-client-spi/2.27.7/http-client-spi-2.27.7.jar = 1723839749000
+/home/david/.m2/repository/software/amazon/awssdk/json-utils/2.27.7/json-utils-2.27.7.jar = 1723839702000
+/home/david/.m2/repository/software/amazon/awssdk/third-party-jackson-core/2.27.7/third-party-jackson-core-2.27.7.jar = 1723839674000
+/home/david/.m2/repository/software/amazon/awssdk/http-auth-aws/2.27.7/http-auth-aws-2.27.7.jar = 1723839753000
+/home/david/.m2/repository/software/amazon/awssdk/http-auth-aws-eventstream/2.27.7/http-auth-aws-eventstream-2.27.7.jar = 1723839678000
+/home/david/.m2/repository/software/amazon/awssdk/http-auth/2.27.7/http-auth-2.27.7.jar = 1723839795000
+/home/david/.m2/repository/software/amazon/awssdk/http-auth-spi/2.27.7/http-auth-spi-2.27.7.jar = 1723839795000
+/home/david/.m2/repository/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.jar = 1556756025000
+/home/david/.m2/repository/software/amazon/awssdk/aws-core/2.27.7/aws-core-2.27.7.jar = 1723839732000
+/home/david/.m2/repository/software/amazon/awssdk/metrics-spi/2.27.7/metrics-spi-2.27.7.jar = 1723839684000
+/home/david/.m2/repository/software/amazon/awssdk/endpoints-spi/2.27.7/endpoints-spi-2.27.7.jar = 1723839800000
+/home/david/.m2/repository/software/amazon/awssdk/retries-spi/2.27.7/retries-spi-2.27.7.jar = 1723839759000
+/home/david/.m2/repository/software/amazon/awssdk/retries/2.27.7/retries-2.27.7.jar = 1723839738000
+/home/david/.m2/repository/software/amazon/awssdk/regions/2.27.7/regions-2.27.7.jar = 1723839661000
+/home/david/.m2/repository/software/amazon/awssdk/sdk-core/2.27.7/sdk-core-2.27.7.jar = 1723839797000
+/home/david/.m2/repository/software/amazon/awssdk/checksums-spi/2.27.7/checksums-spi-2.27.7.jar = 1723839759000
+/home/david/.m2/repository/software/amazon/awssdk/checksums/2.27.7/checksums-2.27.7.jar = 1723839756000
+/home/david/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar = 1653252067000
+/home/david/.m2/repository/software/amazon/awssdk/sqs/2.27.7/sqs-2.27.7.jar = 1723839713000
+/home/david/.m2/repository/software/amazon/awssdk/aws-json-protocol/2.27.7/aws-json-protocol-2.27.7.jar = 1723839759000
+/home/david/.m2/repository/software/amazon/awssdk/protocol-core/2.27.7/protocol-core-2.27.7.jar = 1723839707000
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/main/java = 1727080397036
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/generated-sources/annotations = 1727080823596
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/allclasses-index.html = 1727080840645
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/allpackages-index.html = 1727080840651
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/constant-values.html = 1727080840078
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/element-list = 1727080839723
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/help-doc.html = 1727080840745
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/index-all.html = 1727080840730
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/index.html = 1727080840617
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/jquery-ui.overrides.css = 1727080840806
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/member-search-index.js = 1727080840669
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/module-search-index.js = 1727080840656
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/overview-summary.html = 1727080840734
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/overview-tree.html = 1727080840610
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/package-search-index.js = 1727080840660
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/script.js = 1727080840753
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/search.js = 1727080840757
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/stylesheet.css = 1727080840750
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/tag-search-index.js = 1727080840673
+/mnt/d/SRC/JAVA/worker-queue-sqs/target/apidocs/type-search-index.js = 1727080840663

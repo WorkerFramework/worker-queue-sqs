@@ -1,0 +1,11 @@
+com.hpe.caf.worker.queue.sqs
+com.hpe.caf.worker.queue.sqs.config
+com.hpe.caf.worker.queue.sqs.consumer
+com.hpe.caf.worker.queue.sqs.distributor
+com.hpe.caf.worker.queue.sqs.metrics
+com.hpe.caf.worker.queue.sqs.publisher
+com.hpe.caf.worker.queue.sqs.publisher.error
+com.hpe.caf.worker.queue.sqs.publisher.message
+com.hpe.caf.worker.queue.sqs.publisher.response
+com.hpe.caf.worker.queue.sqs.util
+com.hpe.caf.worker.queue.sqs.visibility

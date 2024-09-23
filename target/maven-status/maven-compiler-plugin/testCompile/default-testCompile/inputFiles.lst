@@ -1,0 +1,12 @@
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/cloudwatch/CloudwatchMetricsIT.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/TestContainer.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/util/WorkerQueueWrapper.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/SQSWorkerQueueIT.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/util/WrapperConfig.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/VisibilityTimeoutListTest.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/util/StubbedTaskCallback.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/cloudwatch/DatapointCollector.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/cloudwatch/MetricDataPoints.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/util/CallbackResponse.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/VisibilityIT.java
+/mnt/d/SRC/JAVA/worker-queue-sqs/src/test/java/com/hpe/caf/worker/queue/sqs/DistributorIT.java

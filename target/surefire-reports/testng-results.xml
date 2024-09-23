@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T09:40:32 BST" name="Surefire suite" finished-at="2024-09-23T09:40:32 BST" duration-ms="115">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T09:40:32 BST" name="Surefire test" finished-at="2024-09-23T09:40:32 BST" duration-ms="115">
+      <class name="com.hpe.caf.worker.queue.sqs.VisibilityTimeoutListTest">
+        <test-method signature="testSortedSetOfVisibilityTimeouts()[pri:0, instance:com.hpe.caf.worker.queue.sqs.VisibilityTimeoutListTest@48f278eb]" started-at="2024-09-23T09:40:32 BST" name="testSortedSetOfVisibilityTimeouts" finished-at="2024-09-23T09:40:32 BST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortedSetOfVisibilityTimeouts -->
+      </class> <!-- com.hpe.caf.worker.queue.sqs.VisibilityTimeoutListTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

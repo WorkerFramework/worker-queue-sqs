@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T09:40:52 BST" name="Surefire suite" finished-at="2024-09-23T09:43:36 BST" duration-ms="164460">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T09:40:52 BST" name="Surefire test" finished-at="2024-09-23T09:43:36 BST" duration-ms="164460">
+      <class name="com.hpe.caf.worker.queue.sqs.VisibilityIT">
+        <test-method signature="testAttemptToChangeVisibilityWithInvalidReceiptHandleDoesNotCrashProcess()[pri:0, instance:com.hpe.caf.worker.queue.sqs.VisibilityIT@693e4d19]" started-at="2024-09-23T09:42:58 BST" name="testAttemptToChangeVisibilityWithInvalidReceiptHandleDoesNotCrashProcess" finished-at="2024-09-23T09:42:58 BST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAttemptToChangeVisibilityWithInvalidReceiptHandleDoesNotCrashProcess -->
+        <test-method signature="testExtendingMultipleMessages()[pri:0, instance:com.hpe.caf.worker.queue.sqs.VisibilityIT@693e4d19]" started-at="2024-09-23T09:42:58 BST" name="testExtendingMultipleMessages" finished-at="2024-09-23T09:43:15 BST" duration-ms="17088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtendingMultipleMessages -->
+        <test-method signature="testExtensionForSingleMessages()[pri:0, instance:com.hpe.caf.worker.queue.sqs.VisibilityIT@693e4d19]" started-at="2024-09-23T09:43:15 BST" name="testExtensionForSingleMessages" finished-at="2024-09-23T09:43:25 BST" duration-ms="10058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtensionForSingleMessages -->
+        <test-method signature="testVisibilityTimeoutExtensionIsCancelled()[pri:0, instance:com.hpe.caf.worker.queue.sqs.VisibilityIT@693e4d19]" started-at="2024-09-23T09:43:25 BST" name="testVisibilityTimeoutExtensionIsCancelled" finished-at="2024-09-23T09:43:36 BST" duration-ms="11059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVisibilityTimeoutExtensionIsCancelled -->
+      </class> <!-- com.hpe.caf.worker.queue.sqs.VisibilityIT -->
+      <class name="com.hpe.caf.worker.queue.sqs.cloudwatch.CloudwatchMetricsIT">
+        <test-method signature="testMetricsShowReceivedAndDeleted()[pri:0, instance:com.hpe.caf.worker.queue.sqs.cloudwatch.CloudwatchMetricsIT@c3fa05a]" started-at="2024-09-23T09:40:52 BST" name="testMetricsShowReceivedAndDeleted" finished-at="2024-09-23T09:40:56 BST" duration-ms="4516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMetricsShowReceivedAndDeleted -->
+      </class> <!-- com.hpe.caf.worker.queue.sqs.cloudwatch.CloudwatchMetricsIT -->
+      <class name="com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT">
+        <test-method signature="testAcknowledgePublishDelete()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:41:57 BST" name="testAcknowledgePublishDelete" finished-at="2024-09-23T09:42:07 BST" duration-ms="10130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAcknowledgePublishDelete -->
+        <test-method signature="testAllAttributesAreCopiedToHeadersOnReceipt()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:07 BST" name="testAllAttributesAreCopiedToHeadersOnReceipt" finished-at="2024-09-23T09:42:07 BST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllAttributesAreCopiedToHeadersOnReceipt -->
+        <test-method signature="testDisconnectReconnectIncomingMessages()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:07 BST" name="testDisconnectReconnectIncomingMessages" finished-at="2024-09-23T09:42:22 BST" duration-ms="15094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisconnectReconnectIncomingMessages -->
+        <test-method signature="testInputQueueIsCreated()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:22 BST" name="testInputQueueIsCreated" finished-at="2024-09-23T09:42:22 BST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputQueueIsCreated -->
+        <test-method signature="testInvalidTaskException()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:22 BST" name="testInvalidTaskException" finished-at="2024-09-23T09:42:22 BST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidTaskException -->
+        <test-method signature="testLivenessCheck()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:22 BST" name="testLivenessCheck" finished-at="2024-09-23T09:42:22 BST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLivenessCheck -->
+        <test-method signature="testMaxInflightMessages()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:22 BST" name="testMaxInflightMessages" finished-at="2024-09-23T09:42:43 BST" duration-ms="20153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxInflightMessages -->
+        <test-method signature="testPublishAcknowledgeDelete()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:43 BST" name="testPublishAcknowledgeDelete" finished-at="2024-09-23T09:42:53 BST" duration-ms="10115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPublishAcknowledgeDelete -->
+        <test-method signature="testTaskRejectedException()[pri:0, instance:com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT@42f22995]" started-at="2024-09-23T09:42:53 BST" name="testTaskRejectedException" finished-at="2024-09-23T09:42:58 BST" duration-ms="5082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaskRejectedException -->
+      </class> <!-- com.hpe.caf.worker.queue.sqs.SQSWorkerQueueIT -->
+      <class name="com.hpe.caf.worker.queue.sqs.DistributorIT">
+        <test-method signature="testRedistributeMessagesInMultipleBatches()[pri:0, instance:com.hpe.caf.worker.queue.sqs.DistributorIT@66434cc8]" started-at="2024-09-23T09:40:56 BST" name="testRedistributeMessagesInMultipleBatches" finished-at="2024-09-23T09:41:17 BST" duration-ms="20500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedistributeMessagesInMultipleBatches -->
+        <test-method signature="testRedistributeMessagesInSingleBatch()[pri:0, instance:com.hpe.caf.worker.queue.sqs.DistributorIT@66434cc8]" started-at="2024-09-23T09:41:17 BST" name="testRedistributeMessagesInSingleBatch" finished-at="2024-09-23T09:41:37 BST" duration-ms="20115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedistributeMessagesInSingleBatch -->
+        <test-method signature="testRedistributeMessagesWhenNoneExistDoesNotThrowError()[pri:0, instance:com.hpe.caf.worker.queue.sqs.DistributorIT@66434cc8]" started-at="2024-09-23T09:41:37 BST" name="testRedistributeMessagesWhenNoneExistDoesNotThrowError" finished-at="2024-09-23T09:41:57 BST" duration-ms="20046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedistributeMessagesWhenNoneExistDoesNotThrowError -->
+      </class> <!-- com.hpe.caf.worker.queue.sqs.DistributorIT -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
